@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>暖日咖啡 Warm Day Café</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- 自訂 CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 導覽列 -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">Warm Day <span>Café</span></a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">首頁</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">關於我們</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">服務介紹</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">聯絡我們</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- 首頁主視覺 -->
+<header id="home" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6 hero-content">
+                <p class="hero-subtitle">A LITTLE BREAK, A LOT OF HAPPINESS</p>
+                <h1>讓生活慢下來<br>享受一杯好咖啡</h1>
+                <p class="hero-text">
+                    在忙碌的日常中，留一點時間給自己。
+                    用一杯咖啡的溫度，陪伴每個美好的午後。
+                </p>
+                <a href="#services" class="btn btn-coffee">探索我們的服務</a>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hero-image"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- 關於我們 -->
+<section id="about" class="about-section section-padding">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="about-image"></div>
+            </div>
+
+            <div class="col-lg-6">
+                <p class="section-subtitle">OUR STORY</p>
+                <h2 class="section-title">一間讓人想念的咖啡廳</h2>
+                <p class="section-text">
+                    暖日咖啡相信，一杯好咖啡不只是飲品，
+                    更是一段享受生活的時光。
+                </p>
+                <p class="section-text">
+                    我們用心挑選咖啡豆，搭配每日新鮮製作的甜點，
+                    希望每位來訪的客人，都能在這裡找到屬於自己的悠閒角落。
+                </p>
+                <a href="#contact" class="text-link">與我們聯絡 →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 服務介紹 -->
+<section id="services" class="services-section section-padding">
+    <div class="container">
+        <div class="text-center mb-5">
+            <p class="section-subtitle">WHAT WE OFFER</p>
+            <h2 class="section-title">我們的服務</h2>
+            <p class="section-text">用心準備每一份美好，讓日常多一點幸福感。</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-image coffee-image"></div>
+                    <div class="service-content">
+                        <h3>精品咖啡</h3>
+                        <p>嚴選優質咖啡豆，從香氣到口感，帶來每一口的美好體驗。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-image dessert-image"></div>
+                    <div class="service-content">
+                        <h3>手作甜點</h3>
+                        <p>每日新鮮製作，以細膩風味搭配咖啡，享受午後的甜蜜時光。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="service-card">
+                    <div class="service-image space-image"></div>
+                    <div class="service-content">
+                        <h3>舒適空間</h3>
+                        <p>溫暖自然的環境，適合閱讀、工作，也適合與朋友相聚。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 諮詢表單 -->
+<section id="contact" class="contact-section section-padding">
+    <div class="container">
+        <div class="row g-5 align-items-start">
+            <div class="col-lg-5">
+                <p class="section-subtitle">CONTACT US</p>
+                <h2 class="section-title">有任何問題嗎？</h2>
+                <p class="section-text">
+                    無論是場地預約、活動合作或其他問題，
+                    都歡迎留下訊息，我們很期待與你交流。
+                </p>
+
+                <div class="contact-info">
+                    <p><strong>地址</strong>　新竹市暖心路 100 號</p>
+                    <p><strong>營業時間</strong>　每日 10:00－20:00</p>
+                    <p><strong>Email</strong>　hello@warmdaycafe.com</p>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="contact-form">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">姓名</label>
+                                <input type="text" class="form-control" id="name"
+                                    placeholder="請輸入姓名" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">電子郵件</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="請輸入 Email" required>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="subject" class="form-label">諮詢主題</label>
+                                <select class="form-select" id="subject" required>
+                                    <option value="" selected disabled>請選擇諮詢主題</option>
+                                    <option>店內訂位</option>
+                                    <option>活動合作</option>
+                                    <option>餐點詢問</option>
+                                    <option>其他問題</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="message" class="form-label">留言內容</label>
+                                <textarea class="form-control" id="message"
+                                    rows="5" placeholder="請輸入想詢問的內容" required></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-coffee w-100">
+                                    送出訊息
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 頁尾 -->
+<footer class="footer">
+    <div class="container text-center">
+        <h3>Warm Day Café</h3>
+        <p>一杯咖啡，一段美好的日常。</p>
+        <p class="copyright">© 2026 Warm Day Café. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap 5 JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
